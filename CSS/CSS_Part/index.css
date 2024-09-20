@@ -1,0 +1,128 @@
+
+*{
+    color:rgb(29, 18, 18);
+}
+h1{
+    color:red;
+    background-color:rgb(226, 226, 231);
+}
+h2{
+    color:#ff00ff;
+}
+.hi1{
+    background-color:rgb(189, 163, 50);
+     
+     height:100px;
+     width:200px;
+     /* border-width:2px;
+     border-style:dashed; 
+     border-color:brown; */
+
+     border:12px solid brown;
+     text-align: left;
+     display:inline-block; 
+     /* visibility:hidden;  */
+}
+h6{
+    text-decoration:underline;
+}
+#id1{
+    color:rgb(255, 0, 119);
+    margin:1px 2px 3px 4px;
+    background-color:rgb(19, 241, 19);
+
+}
+p{
+    text-decoration:overline;   /*overline,underline,line-through*/
+    font-weight:bolder;          /*bolder,lighter,normal*/
+    /* font-weight:180px; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;     /*arial,robo */
+    font-size:20px;
+} 
+.effects{
+    line-height:normal;     /*2px,normal*/
+
+    text-transform:capitalize /*lowercase,capitalize,none*/
+
+    
+}
+.hi2{
+    text-align:center;
+    height:180px;
+    width:180px;
+    background-color:red;
+    border-radius:50%;
+    /* padding-left:90px;
+    padding-right:90px;
+    padding-top:20px;
+    padding-bottom:20px; */
+
+        padding:1px 2px 3px 4px; /*padding:25px;---->same for all sides*/
+       margin:1px,2px,3px,6px;
+    
+}
+.new{
+    background-color:rgb(200, 255, 200,9.5);
+}
+#box1{
+    height:100px;
+    width:100px;
+    background-color:green;
+    font-size:10px;
+    
+    
+}
+#box2 {
+    
+    width:30%;
+    background-color:yellow;
+    margin-left:10%  ;
+    
+                         /*10 of 100 width in parent*/
+                         /* font-size:1em;   (1 time of font-size of parent)*/
+                         /*width:5em;           5 times of recent used em ie., font-size */
+                         /* font-size:1em;       font-size=1rem==========>font size of root element*/
+                         /* height:100vh;           represents 100 part of viewport height ie.,webpage height */   
+   
+   /*POSITION:static,relative,absolute,fixed,sticky*/
+  
+
+
+
+}
+#b2{
+position:static;
+}
+#b3{
+position:sticky;
+height:140px;
+width:80px;
+top:0px;
+left:10px;
+/* z-index:0; */
+background-image:url("sunflower.jpg");
+background-size:cover;     /*contain:---represents how much it contains and left with space if there 
+,auto:-----represents as it is(with enlarging)*/
+background-repeat:no-repeat;
+
+}
+#b4{
+position:sticky;  /*sticky*/     
+top:0px;
+z-index:1;
+
+}  
+      /*absolute means it will go to ancestor tag ie., body tag up and maintain top:10px*/
+#b5{
+   display:inline;
+   position:fixed;
+   right:0px;
+   width:70%;
+   top:0px;
+    /* left:0px; */
+    
+}
+
+    
+    
+    
